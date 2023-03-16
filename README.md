@@ -55,6 +55,9 @@ Hello welcome to my **[Portfolio]**. This is a demo project on the upcoming Worl
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Video Demo <a name="video"></a>
+
+- A short video walk-through of the [website](https://loom.com/share/b04d73d12cff43fd982fce9faba18320)
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="https://jeddaa.github.io/microverse-project1/"></a>
