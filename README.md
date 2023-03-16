@@ -62,7 +62,7 @@ Hello welcome to my **[Portfolio]**. This is a demo project on the upcoming Worl
 
 ## 🚀 Live Demo <a name="(#live-demo"></a>
 
-If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-website-one/)
+If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-project1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,15 +127,16 @@ Example command:
 
 <!-- You can deploy this project using: -->
 
-- Project has already been deployed.
-
+- Project has already been deployed. You don't need to re-deploy it.
+- Visit the [live site](https://jeddaa.github.io/microverse-project1/)
 <!--
 Example:
 
 ```sh
 
 ```
- -->
+
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
