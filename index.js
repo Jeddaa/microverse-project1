@@ -52,7 +52,7 @@ const features2 = [
   },
   {
     chessImg: './icons/chess.jpg',
-    speakerImg: './icons/speaker5.jpg',
+    // speakerImg: './icons/speaker5.jpg',
     speakerName: 'Ursula von der Leyen',
     speakerBio: 'President of the European Commission',
     speakerPtag: "Merkel's foreign policy has focused on strengthening European cooperation and international trade agreements.",
