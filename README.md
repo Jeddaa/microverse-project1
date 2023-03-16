@@ -28,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="Capstone Project"></a>
 
-Hello welcome to my **[Portfolio]**, here you'll find details about me and some of the projects I've worked on.
+Hello welcome to my **[Portfolio]**. This is a demo project on the upcoming World Health Summit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,18 +49,19 @@ Hello welcome to my **[Portfolio]**, here you'll find details about me and some 
 
 ### Key Features <a name="key-features"></a>
 
-- Toolbar section
-- Portfolio section
-- About Me section
-- Contact Me section
+- Home Page
+- About page
+<!-- - Contact Me section -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="https://jeddaa.github.io/microverse-website-one/"></a>
+## 🚀 Live Demo <a name="https://jeddaa.github.io/microverse-project1/"></a>
 
-If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-website-one/)
+<!-- If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-website-one/) -->
+
+The finished project will be deployed very soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +81,7 @@ Clone this repository to your desired folder:
 
 ```shell
   cd my-folder
-  git clone git@github.com:Jeddaa/microverse-website-one.git
+  git clone git@github.com:Jeddaa/microverse-project1
 ```
 
 ### Install
@@ -109,6 +110,7 @@ To run tests, run the following command:
 ```shell
   npx hint .
   npx stylelint "\*_/_.{css,scss}"
+  npx eslint .
 
 ```
 
@@ -124,7 +126,7 @@ Example command:
 
 <!-- You can deploy this project using: -->
 
-Project has already been deployed
+Project will be deployed on or before 20th March, 2023.
 
 <!--
 Example:
@@ -151,19 +153,20 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-A popup menu for work cards.
+- The more button on the mobile homepage will show the rest of the speakers
+- Add more pages such as Programs, Join, sponsor will be added
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
+## 🤝 Credit <a name="credit"></a>
+
+Original design idea by Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions have been made and accepted by:
-
-- GitHub: [BranBayou](https://github.com/BranBayou)
-
-- GitHub: [touredri](https://github.com/touredri)
+<!-- Contributions have been made and accepted by: -->
 
 Contributions, issues, and feature requests are welcome!
 
@@ -189,6 +192,6 @@ A special thank you to my learning partners and standup team for their help and 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/microverse-website-one/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/microverse-project1/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
