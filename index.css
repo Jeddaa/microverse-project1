@@ -327,7 +327,12 @@ body {
     margin-bottom: 2em;
     padding-bottom: 1em;
     height: 230px;
+    gap: 0.5em;
     max-height: 800px;
+  }
+
+  .summit-partner-line {
+    gap: 0;
   }
 
   .home-section2-div1 {
@@ -335,7 +340,7 @@ body {
     height: 100%;
     flex-direction: column;
     justify-items: left;
-    padding: 1em 0;
+    padding: 1em 0.2em;
     margin: 0;
     gap: 0;
     row-gap: 0;

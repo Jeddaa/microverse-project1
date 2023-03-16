@@ -55,16 +55,14 @@ Hello welcome to my **[Portfolio]**. This is a demo project on the upcoming Worl
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Video Demo <a name="video"></a>
+## 🚀 Video Demo <a name="#video"></a>
 
 - A short video walk-through of the [website](https://loom.com/share/b04d73d12cff43fd982fce9faba18320)
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="https://jeddaa.github.io/microverse-project1/"></a>
+## 🚀 Live Demo <a name="(#live-demo"></a>
 
-<!-- If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-website-one/) -->
-
-The finished project will be deployed very soon.
+If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-website-one/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +127,7 @@ Example command:
 
 <!-- You can deploy this project using: -->
 
-Project will be deployed on or before 20th March, 2023.
+- Project has already been deployed.
 
 <!--
 Example:
@@ -163,10 +161,6 @@ Example:
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Credit <a name="credit"></a>
-
-Original design idea by Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 <!-- Contributions have been made and accepted by: -->
@@ -187,7 +181,7 @@ Kindly help check for errors or bugs. Feel free to contact me on what could be d
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-A special thank you to my learning partners and standup team for their help and support. Thank you to my friends for always answering my numerous questions too.
+A special thank you to the author of the original design idea Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), my learning partners and standup team for their help and support. Thank you to my friends for always answering my numerous questions too.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

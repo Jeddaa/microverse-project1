@@ -50,6 +50,20 @@ const features2 = [
     speakerBio: 'Principal (until 2020), Makerere University College of Health Sciences, Uganda',
     speakerPtag: "Merkel's foreign policy has focused on strengthening European cooperation and international trade agreements.",
   },
+  {
+    chessImg: './icons/chess.jpg',
+    speakerImg: './icons/speaker5.jpg',
+    speakerName: 'Ursula von der Leyen',
+    speakerBio: 'President of the European Commission',
+    speakerPtag: "Merkel's foreign policy has focused on strengthening European cooperation and international trade agreements.",
+  },
+  {
+    chessImg: './icons/chess.jpg',
+    speakerImg: './icons/speaker6.jpg',
+    speakerName: 'Emmanuel Macron',
+    speakerBio: 'President of the French Republic',
+    speakerPtag: "Merkel's foreign policy has focused on strengthening European cooperation and international trade agreements.",
+  },
 ];
 
 const dynamic = document.querySelector('.featured-speaker');
@@ -68,10 +82,10 @@ features.forEach((feat) => {
   item.className = 'featured-speaker-div';
   item.innerHTML = `<div class="featured-speaker-div1">
           <div class="featured-speaker-img-div1">
-            <img class="chess" src="${feat.chessImg}" alt="" />
+            <img class="chess" src="${feat.chessImg}" alt="backdrop-img" />
           </div>
           <div class="featured-speaker-img-div2">
-            <img class="image2" src="${feat.speakerImg}" alt="" />
+            <img class="image2" src="${feat.speakerImg}" alt="partner image" />
           </div>
         </div>
         <div class="featured-speaker-div3">
@@ -89,10 +103,10 @@ features2.forEach((feat) => {
   item.className = 'featured-speaker-div';
   item.innerHTML = `<div class="featured-speaker-div1">
           <div class="featured-speaker-img-div1">
-            <img class="chess" src="${feat.chessImg}" alt="" />
+            <img class="chess" src="${feat.chessImg}" alt="backdrop-img" />
           </div>
           <div class="featured-speaker-img-div2">
-            <img class="image2" src="${feat.speakerImg}" alt="" />
+            <img class="image2" src="${feat.speakerImg}" alt="partner image" />
           </div>
         </div>
         <div class="featured-speaker-div3">
