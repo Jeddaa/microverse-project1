@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  background-color: #f1f1f1e5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.mobile-header {
+  display: flex;
+}
+
+.desktop-header {
+  display: none;
+}
+
+.nav-bar {
+  height: 80px;
+  margin: 0;
+}
+
+.openMenu {
+  color: #000;
+  font-size: 3rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.closeMenu {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.mainMenu,
+.closeMenu {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  background: none;
+}
+
+nav .mainMenu li a {
+  display: inline-block;
+  align-items: flex-start;
+  text-align: center;
+  margin: 0;
+  gap: 0;
+  padding: 0.5em;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 44px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.mainMenu li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.mainMenu {
+  list-style: none;
+  height: 100vh;
+  position: fixed;
+  padding-top: calc(40% - 24px / 2);
+  text-align: start;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  gap: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.4);
+  mix-blend-mode: multiply;
+  color: #fff;
+  display: none;
+  backdrop-filter: blur(10px);
+  transition: top 1s ease;
+}
+
+.summit-logo > img {
+  width: 100%;
+}
+
+.summit-partner-div2 > img {
+  font-size: 2em;
+  width: 150px;
+}
+
+.desktop-logo > a > img {
+  width: 100%;
+  height: 90px;
+  padding: 0.2em;
+}
+
+.mobile-about {
+  display: flex;
+  flex-direction: column;
+}
+
+h6,
+h1 {
+  color: #ff4f39;
+  text-align: center;
+}
+
+#h1 {
+  margin: 0.5em;
+  margin-top: 0;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+h6 {
+  margin-top: 1em;
+}
+
+.about-div1 {
+  padding: 0.6em;
+  background-color: #fff;
+  display: block;
+  margin: 1.5em auto;
+  width: 90vw;
+}
+
+.about-div1p-mobile {
+  margin: 0;
+  text-align: center;
+}
+
+.about-div1p-desktop {
+  display: none;
+}
+
+.mobile-aboutp {
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+.mobile-abouta {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #000;
+}
+
+.about-section2 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 0 0;
+  background-color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.line1-section2 {
+  width: 20px;
+  border: solid 0.5px #ff4f39;
+  margin: 0.8em auto;
+  color: #ff4f39;
+  opacity: 100%;
+}
+
+.summit-logo {
+  margin: 0 auto;
+  width: 95vw;
+  align-content: flex-start;
+  padding: 5px;
+}
+
+.desktop-p {
+  display: none;
+}
+
+.summit-img-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 70vw;
+  margin: 10px auto;
+}
+
+.summit-img1 {
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  mix-blend-mode: multiply;
+  background-image: linear-gradient(rgba(223, 64, 64, 0.73), rgba(201, 57, 57, 0.73)), url('./icons/summit1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.summit-img2 {
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  mix-blend-mode: multiply;
+  background-image: linear-gradient(rgba(223, 64, 64, 0.73), rgba(201, 57, 57, 0.73)), url('./icons/summit2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.about-partner-section {
+  width: 100vw;
+  height: 350px;
+  background-color: #414246;
+  padding: 10px;
+  margin: 0;
+}
+
+.about-partner-section > h5 {
+  color: #fff;
+}
+
+.summit-partner-div1 > h5 {
+  color: #fff;
+  text-align: center;
+}
+
+.summit-partner-line {
+  width: 40px;
+  height: 0;
+  border-top: solid 1px #cd0404;
+  background-color: #fff;
+  margin: 0.8em auto;
+  color: #cd0404;
+  opacity: 100%;
+}
+
+.summit-partner-div2 {
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2em;
+  row-gap: 1em;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100vw;
+  gap: 0.8em;
+  justify-content: space-between;
+  height: 6.5rem;
+  display: flex;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.footer-div1 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1em;
+}
+
+.footer-div1 > p {
+  gap: 0;
+  color: #000;
+  justify-content: flex-start;
+  line-height: 15px;
+  margin-bottom: 0;
+}
+
+.footer-div1 > i {
+  display: block;
+  color: #000;
+  font-size: 1.5em;
+}
+
+.desktop-footerp {
+  display: none;
+}
+
+.footer-div2 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.footer-div2 > p {
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8em;
+  color: #000;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-header {
+    display: none;
+  }
+
+  .desktop-header {
+    display: flex;
+    gap: 0;
+    margin: 0;
+  }
+
+  .desktop-first-nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    position: absolute;
+    padding-right: 2.5em;
+    font-size: 1em;
+    width: 100vw;
+    background-color: #20262e;
+  }
+
+  .desktop-logo > a {
+    text-decoration: none;
+  }
+
+  .cc > a {
+    text-decoration: none;
+  }
+
+  .desktop-first-nav > li > a {
+    right: 1.5em;
+    color: #fff;
+  }
+
+  .desktop-second-nav {
+    display: flex;
+    margin-top: 40px;
+    width: 100vw;
+    align-items: center;
+    height: 5em;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .desktop-logo {
+    margin-left: 0.5em;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .desktop-mainMenu {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    position: absolute;
+    align-items: center;
+    right: 1.5em;
+    padding-top: 10px;
+  }
+
+  .cc,
+  .desktop-mainMenu > li > a {
+    color: #20262e;
+    font-size: 1em;
+  }
+
+  .cc {
+    padding: 10px;
+    border: #cd0404 solid 5px;
+    font-weight: 700;
+  }
+
+  .desktop-mainMenu > li > a.about {
+    color: #ff4f39;
+  }
+
+  #h1 {
+    padding-top: 1.5em;
+    font-size: 5em;
+  }
+
+  .mobile-about > h6 {
+    display: none;
+  }
+
+  .about-div1 {
+    width: 70vw;
+  }
+
+  .about-div1p-mobile {
+    display: none;
+  }
+
+  .about-div1p-desktop {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .mobile-aboutp {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .about-section2 {
+    margin-top: 3em;
+    padding: 3em 1em 4em 1em;
+  }
+
+  .desktop-p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-section2 > p {
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .summit-logo {
+    width: 60vw;
+    padding: 1em 2em;
+    margin: 2em auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .about-section2 > h5 {
+    padding-top: 1.5em;
+  }
+
+  .summit-img-div {
+    flex-direction: row;
+    gap: 1em;
+    height: 300px;
+    max-height: 1000px;
+    margin-top: 2em;
+  }
+
+  .summit-img1,
+  .summit-img2 {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  .about-partner-section {
+    display: none;
+  }
+
+  .footer {
+    background-color: #414246;
+    justify-content: space-between;
+    height: 12.5rem;
+    padding-right: 3em;
+  }
+
+  .footer-div1 {
+    width: 28%;
+    justify-content: flex-end;
+    padding-right: 4em;
+  }
+
+  .footer-div1 > p {
+    gap: 0;
+    color: #fff;
+  }
+
+  .footer-div1 > i {
+    color: #fff;
+    font-size: 2.5em;
+  }
+
+  .desktop-break {
+    display: none;
+  }
+
+  .footer-div2 {
+    width: 70%;
+    flex-direction: column;
+    align-self: center;
+    justify-content: flex-start;
+    padding-right: 3em;
+  }
+
+  .footer-div2 > p {
+    font-size: 1.2em;
+    text-align: left;
+    align-self: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+  }
+
+  .desktop-footerp {
+    display: flex;
+  }
+}
